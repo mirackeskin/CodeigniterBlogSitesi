@@ -1,0 +1,13 @@
+*{
+    font-size: 50px;
+}
+
+
+@media (max-width:756px)
+{
+    #navbar-collapse-1 #abcd 
+    {
+        background: red;
+        width:100%;
+    }
+}

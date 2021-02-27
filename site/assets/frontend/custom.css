@@ -1,0 +1,233 @@
+#abc .header-button
+{
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+#abc .header-button:hover
+{
+    background: gainsboro;
+    
+}
+#abc .header-button:hover a
+{
+    color:black;
+}
+
+body
+{
+    background:#f2f2f2;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*First Header Start*/
+.header-row-1
+{
+    margin: 0px;
+    padding: 0px;
+    height: 30px;    
+}
+
+.header-top
+{
+    background: gainsboro;
+}
+
+.icon-wrapper-1
+{
+    position: relative;
+    
+}
+.icon-wrapper-1 .icon
+{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.icon-wrapper-1 .icon i
+{
+    font-size: 20px;
+}
+
+.icon-wrapper-2
+{
+    position: relative;
+}
+.icon-wrapper-2 .icon-2
+{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.icon-wrapper-3
+{
+    position: relative;
+}
+.icon-wrapper-3 .icon-3
+{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.icon-wrapper-3 .icon-3 a
+{
+    font-size:10px;
+    background: purple;
+    color: gainsboro;
+
+}
+
+@media (max-width:768px)
+{
+    .header-row-1
+    {
+        height: 100%;
+        
+    }
+    .sutun{font-size:12px;}
+}
+
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+  }
+
+
+/*First Header End*/
+
+/*Reklam Start*/
+.reklam
+{
+    
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.reklam .reklam-img
+{
+    position: relative;    
+    width: 100%;
+    height: 200px;
+    overflow: hi;
+}
+/*Reklam End*/
+
+/* Section 1 Start*/
+
+.kart{
+    background: #ffffff;
+}
+.kart:hover{
+    background: #DFDFDF;
+}
+.kart-baslik-link
+{
+    color:black;
+    font-weight: bold;
+}
+.kart-baslik-link:hover
+{
+    color: black;
+}
+
+.main-wrapper
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.cart-title-2 i{
+    font-weight: normal;
+    margin-left: 2px;
+}
+
+/* Section 1 End*/
+
+/*Section 2 Start*/
+.sol-bolum-baslik
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.yan-kart
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.kart-resim
+{
+    width: 100%;
+    height: 250px;
+}
+.kart-resim img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.kart-govde
+{
+    width: 100%;
+    word-wrap: break-word;
+    height: 100%;
+    color: black;
+    padding-top: 5px;
+}
+.kart-govde h5{
+    font-weight: bold;
+}
+.yan-kart:hover{
+    background:#DFDFDF ;
+    border-radius: 10px;
+}
+.sidebar-renklendirici{
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar-renklendirici:hover{
+    background:#d6d8db; /*#AB6CC6;*/
+    color: black;
+    
+}
+.sidebar-renklendirici-teknoloji:hover{
+    color: black;
+    background:#ffc107 ;
+}
+
+.sidebar-renklendirici-oyun:hover{
+    color:whitesmoke;
+    background: #dc3545;
+}
+
+/*Section 2 End*/
+
+/*Pagination Başlangıç*/
+.pagination a, .pagination strong{
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-left:5px;
+    text-decoration: none;
+    box-shadow: 0px 0px 8px rgba(5,5,5,0.3);
+}
+.pagination strong{
+    background: #35a5f2;
+}
+/*Pagination Son*/
+
+
+/*Footer Bölümü Başlangıç*/
+footer{
+    /*height: 200px;*/
+}
+/*Footer Bölümü Son*/
